@@ -14,7 +14,10 @@ func main() {
 
 	// A slice of names.
 	names := []string{"Meg", "Mone", "Shin"}
-	//If an error was returned, print it to the console and exit the program
+
+	//Request greeting message for the names.
+	messages, err := greetings.Hellos(names)
+
 	if err != nil {
 		log.Fatal(err)
 	}
