@@ -1,0 +1,2 @@
+# goweek
+Inquiries into golang
